@@ -15,7 +15,7 @@ def create_project_hash
   #retrieve title for each project
   #collect imagelink, description, funded and location from each project
   #create a project_detail_hash with above attribute as key
-  #create a new hash with project title an
+  #create a new hash with project title as key and project_detail_hash
   binding.pry
 
 
