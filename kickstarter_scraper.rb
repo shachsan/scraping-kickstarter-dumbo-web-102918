@@ -13,7 +13,7 @@ def create_project_hash
 
   #iterate over projects
   #collect imagelink, description, funded and location from each project
-  #create a
+  #create a hash with 
   binding.pry
 
 
