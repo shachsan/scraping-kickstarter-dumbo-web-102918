@@ -1,5 +1,5 @@
 # require libraries/modules here
-require_relative '../f'
+require_relative '../fixtures/kickstarter'
 
 def create_project_hash
   # write your code here
