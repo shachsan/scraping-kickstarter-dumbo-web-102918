@@ -21,7 +21,7 @@ def create_project_hash
     project_title = project.css("h2").text
     project_info = {}
     project_info[:image_link]=project.css("a img").attribute("src").value
-    project_info[:description]= project.css()
+    project_info[:description]= project.css("p").
     project_info[:location]=
     project_info[:percent_funded]=
     projects_hash["project_title"]=project_info
