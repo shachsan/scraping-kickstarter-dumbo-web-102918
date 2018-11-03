@@ -10,7 +10,7 @@ def create_project_hash
 
 
   projects = page.css(".project")
-  
+  projects_hash
 
   #iterate over projects
   #retrieve title for each project
