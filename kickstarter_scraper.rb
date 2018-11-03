@@ -12,7 +12,7 @@ def create_project_hash
   projects = page.css(".project")
 
   #iterate over projects
-  #collect imagelink, description, 
+  #collect imagelink, description, funded and 
   binding.pry
 
 
