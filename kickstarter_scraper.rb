@@ -18,7 +18,7 @@ def create_project_hash
   #create a project_info hash with above attribute as key
   #create a new hash called project hash  with project title as key and project_info hash as value
   projects.each do |project|
-    project_title = project.css("h2").text
+    project_title = project.css("h2 a").text
     project_info = {}
     project_info[:image_link]=project.css("a img").attribute("src").value
     project_info[:description]= project.css("p").text
