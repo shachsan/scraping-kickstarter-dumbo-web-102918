@@ -26,7 +26,7 @@ def create_project_hash
     project_info[:percent_funded]= project.css(".funded strong").text
     projects_hash[project_title]=project_info
 
-    binding.pry
+    # binding.pry
   end
 
 
