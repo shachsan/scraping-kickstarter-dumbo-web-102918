@@ -11,7 +11,7 @@ def create_project_hash
 
   projects = page.css(".project")
 
-  #iterate over 
+  #iterate over pr
   binding.pry
 
 
