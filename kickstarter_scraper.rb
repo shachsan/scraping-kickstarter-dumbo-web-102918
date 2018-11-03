@@ -27,7 +27,7 @@ def create_project_hash
     projects_hash["project_title"]=project_info
   end
 
-  binding.pry
+  
 
 
 
