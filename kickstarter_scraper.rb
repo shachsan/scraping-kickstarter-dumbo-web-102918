@@ -10,7 +10,8 @@ def create_project_hash
 
 
   projects = page.css(".project")
-  
+
+  #
   binding.pry
 
 
