@@ -18,7 +18,8 @@ def create_project_hash
   #create a new hash called project hash  with project title as key and project_info hash as value
   projects.each do |project|
     project_title = project.css("h2").text
-    project_info =
+    project_info = {}
+    
   end
 
   binding.pry
