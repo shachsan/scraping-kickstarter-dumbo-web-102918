@@ -1,5 +1,4 @@
-# require libraries/modules here
-# require_relative '../fixtures/kickstarter.html'
+
 require 'nokogiri'
 require 'pry'
 
