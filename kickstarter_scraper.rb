@@ -12,9 +12,10 @@ def create_project_hash
   projects = page.css(".project")
 
   #iterate over projects
+  
   #collect imagelink, description, funded and location from each project
   #create a hash with above attribute as key
-  
+  #
   binding.pry
 
 
