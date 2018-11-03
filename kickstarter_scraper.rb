@@ -15,7 +15,7 @@ def create_project_hash
   #retrieve title for each project
   #collect imagelink, description, funded and location from each project
   #create a project_info with above attribute as key
-  #create a new hash called project hash  with project title as key and project_inf as value
+  #create a new hash called project hash  with project title as key and project_info hash as value
   projects.each do |project|
     project_title = project.css("h2").text
     project_info
