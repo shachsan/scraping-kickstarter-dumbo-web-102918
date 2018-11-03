@@ -20,6 +20,7 @@ def create_project_hash
     project_title = project.css("h2").text
     project_info = {}
     project_info[:image_link]=
+    
   end
 
   binding.pry
