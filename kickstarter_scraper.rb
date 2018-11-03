@@ -19,7 +19,7 @@ def create_project_hash
   projects.each do |project|
     project_title = project.css("h2").text
     project_info = {}
-    project_title
+    project_info{}
   end
 
   binding.pry
