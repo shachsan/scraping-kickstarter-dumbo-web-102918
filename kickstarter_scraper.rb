@@ -23,7 +23,7 @@ def create_project_hash
     project_info[:image_link]=project.css("a img").attribute("src").value
     project_info[:description]= project.css("p").text
     project_info[:location]= project.css(".project-meta").text
-    project_info[:percent_funded]= project.css(".funded strong").text
+    project_info[:percent_funded]= (project.css(".funded strong").text
     projects_hash[project_title]=project_info
 
     # binding.pry
