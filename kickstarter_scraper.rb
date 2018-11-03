@@ -17,7 +17,7 @@ def create_project_hash
   #create a project_detail_hash with above attribute as key
   #create a new hash called project hash  with project title as key and project_detail_hash as value
   projects.each do |project|
-    project_title = project
+    project_title = project.css()
   end
 
   binding.pry
