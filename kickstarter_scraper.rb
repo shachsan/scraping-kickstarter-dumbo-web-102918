@@ -24,7 +24,7 @@ def create_project_hash
     project_info[:description]=
     project_info[:location]=
     project_info[:percent_funded]=
-    projects_hash["project_title]
+    projects_hash["project_title"]
   end
 
   binding.pry
