@@ -20,7 +20,7 @@ def create_project_hash
   projects.each do |project|
     project_title = project.css("h2").text
     project_info = {}
-    project_info[:image_link]=project.css("a img")
+    project_info[:image_link]=project.css("a img").attribute
     project_info[:description]=
     project_info[:location]=
     project_info[:percent_funded]=
