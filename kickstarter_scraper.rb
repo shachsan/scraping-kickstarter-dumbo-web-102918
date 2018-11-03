@@ -16,7 +16,8 @@ def create_project_hash
   #collect imagelink, description, funded and location from each project
   #create a project_detail_hash with above attribute as key
   #create a new hash called project hash  with project title as key and project_detail_hash as value
-  projects.each do |project
+  projects.each do |project|
+  end 
 
   binding.pry
 
