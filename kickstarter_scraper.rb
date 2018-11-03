@@ -21,7 +21,8 @@ def create_project_hash
     project_info = {}
     project_info[:image_link]=
     project_info[:description]=
-    project_info[:location]
+    project_info[:location]=
+    
   end
 
   binding.pry
