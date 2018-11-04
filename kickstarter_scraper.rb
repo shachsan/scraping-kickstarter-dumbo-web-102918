@@ -8,7 +8,6 @@ def create_project_hash
   page = Nokogiri::HTML(html)
 
 
-
   projects = page.css(".project")
   projects_hash ={}
 
@@ -25,7 +24,6 @@ def create_project_hash
     project_info[:location]= project.css(".project-meta").text
     project_info[:percent_funded]= (project.css(".funded strong").text).to_i
     projects_hash[project_title]=project_info
-
   end
 
 
